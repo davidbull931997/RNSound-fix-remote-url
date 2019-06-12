@@ -1,23 +1,22 @@
 {
-  "name": "playsound",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+  "name": "react-native-sound",
+  "version": "0.10.9",
+  "description": "React Native module for playing sound clips on iOS, Android, and Windows",
+  "main": "sound.js",
+  "typings": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zmxv/react-native-sound.git"
   },
-  "dependencies": {
-    "react": "16.6.0-alpha.8af6728",
-    "react-native": "0.57.4",
-    "react-native-sound": "^0.10.9"
-  },
-  "devDependencies": {
-    "babel-jest": "23.6.0",
-    "jest": "23.6.0",
-    "metro-react-native-babel-preset": "0.48.1",
-    "react-test-renderer": "16.6.0-alpha.8af6728"
-  },
-  "jest": {
-    "preset": "react-native"
+  "keywords": [
+    "react-native",
+    "react-component",
+    "sound",
+    "audio"
+  ],
+  "author": "Zhen Wang <z@zmxv.com> (http://blog.zmxv.com)",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": ">=0.8.0"
   }
 }
